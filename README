@@ -1,0 +1,5 @@
+This is the markdown file for an ashcan of a game I wrote. I'll put some more info about it here later.
+This is the command that works:
+```
+$ pandoc -s Itinerarium.md --pdf-engine=xelatex -V mainfont="Noto Sans Cuneiform" -t latex -o Itinerarium.pdf
+```
